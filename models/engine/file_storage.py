@@ -18,11 +18,11 @@ class FileStorage:
 
     def delete(self, obj=None):
         """ delete obj from __objects if it’s inside - if obj is equal to None, the method should not do anything"""
-        if obj is not None
+        if obj is not None:
             obj_key = f"{obj.__class__.__name__}.{obj.id}"
-            
-            if obj_key in self.__objects:
-                del self.__objects[obj_key]
+        
+        if obj_key in self.__objects:
+            del self.__objects[obj_key]
 
     def save(self):
         """Saves storage dictionary to file"""
