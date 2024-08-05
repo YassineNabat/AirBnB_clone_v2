@@ -1,6 +1,6 @@
 <center> <h1>HBNB - The Console</h1> </center>
 
-
+This is the 3rd version of our AirBnB clone project. We will be using a REST API and Flask
 ![02078cd7f0573885c85a225c7436584a5afea1f9](https://github.com/user-attachments/assets/cbd5eb41-0977-4051-9b21-5911a1fef844)
 
 ---
